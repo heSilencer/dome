@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#app {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+body {
+    font-size: 16px;
+    size: 16px;
+}
+
+ul > li {
+    list-style-type: none;
+    padding: 12px;
+}
+
+nav {
+    width: 100vw;
+    background-color: crimson;
+}
+nav > ul {
+    display: flex;
+    align-items: end;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+
+}
+nav ul > li:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+nav ul > li:active {
+    background-color: whitesmoke;
+}
+
+#login, #project, #home {
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+}
+input, label, button {
+    display: block;
+    padding: 10px;
+    margin-left: 10px; 
+    margin-top: 20px;
+    margin: auto;
+}
+input[type="submit"] {
+    margin-top: 5px;
+    padding-right: 10px;
+}
+button {
+    width: 200px;
+}
+input {
+    width: 200px;
+    display: block;
+    padding: 10px;
+   margin:  auto;
+   border-radius: 5px;
+   box-sizing: border-box;
+   
+    
+}
+label {
+    font-weight: bold;
+    display: block;
+   
+}
